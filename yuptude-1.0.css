@@ -6,9 +6,13 @@
   font: 16px Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  opacity: 0.3;
 }
 #yptd * {
   margin: 0;
+}
+#yptd:focus {
+  opacity: 0.7;
 }
 #yptd a {
   border-radius: 5px;
@@ -18,18 +22,18 @@
   margin: 0 0.5em 0 0;
   padding: 0.25em 1.0em;
   font-weight: bold;
-  color: #FFF;
-  background-color: #fd0d5d;
+  color: #fff;
+  background-color: #00f;
 }
 #yptd a em {
-  font-size: 0.90em;
+  font-size: 0.90em;it
 }
 #yptd a:hover,
 #yptd a:focus,
 #yptd a:active {
   outline: 0;
-  color: #fd0d5d;
-  background-color: #FFF;
+  color: #00f;
+  background-color: #fff;
   text-decoration: none;
 }
 #yptd span {
@@ -58,14 +62,14 @@
 #yptd span:hover,
 #yptd span:focus,
 #yptd span:active {
-  color: #fd0d5d;
+  color: #33f;
 }
 #yptd-bar {
   border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   -webkit-border-radius: 3px 3px 0 0;
   height: 2.25em;
-  background-color: #fd0d5d;
+  background-color: #33f;
 }
 #yptd-bar:after {
   content: "";
@@ -137,5 +141,5 @@
   padding: 0.5em;
   white-space: pre;
   font-size: 0.8em;
-  background-color: #fd0d5d;
+  background-color: #33f;
 }
